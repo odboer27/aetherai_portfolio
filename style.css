@@ -81,12 +81,11 @@ h1 {
   background: var(--surface);
   text-decoration: none;
   font-weight: 500;
-  transition: border-color .15s, box-shadow .15s;
+  transition: border-color .15s;
 }
 .btn:hover,
 .btn:focus-visible {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent);
 }
 
 /* ---------- Sections ---------- */
@@ -125,12 +124,11 @@ h1 {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   text-decoration: none;
-  transition: border-color .15s, box-shadow .15s;
+  transition: border-color .15s;
 }
 .card:hover,
 .card:focus-visible {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent);
 }
 .card h3 { font-size: 1.05rem; }
 .card p { color: var(--muted); font-size: .95rem; flex: 1; }
