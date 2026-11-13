@@ -1,6 +1,7 @@
 # Personal Obsidian notes — keep out of the repository
 aetherai_portfolio_obsidian/
 .obsidian/
+CLAUDE.md
 
 # OS / editor clutter
 .DS_Store
