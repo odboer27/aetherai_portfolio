@@ -72,6 +72,16 @@ h1 {
 .tagline { font-size: 1.2rem; color: var(--muted); }
 .bio { max-width: 60ch; }
 
+/* Quote: part of the introduction, marked with a green line */
+.quote {
+  margin: 8px 0 0;
+  padding-left: 16px;
+  border-left: 3px solid var(--accent);
+  max-width: 60ch;
+}
+.quote blockquote { margin: 0; font-size: 1.15rem; font-style: italic; }
+.quote figcaption { margin-top: 4px; font-size: .9rem; color: var(--muted); }
+
 /* ---------- Buttons ---------- */
 .btn {
   display: inline-block;
